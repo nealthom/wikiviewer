@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wikipedia Viewer</title>
+<link rel="stylesheet" type="text/css"href="theme.css">
+</head>
+<body>
+<h1>Wiki Viewer</h1>
+<form name="myform" action="" method="GET" onsubmit="return search();">
+<input type="text" name="wikiVal" id="wikiEntry" value="">
+<button type="submit" >Search</button>
+<button onclick="random()">Random Article</button>
+</form>
+
+<div id="links"></div>
+
+
+<script src=wiki.js></script>
+</body>
+</html>
